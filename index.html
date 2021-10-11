@@ -7,9 +7,11 @@
   </head>
   <body>
     <h1>ToDoリスト</h1>
-        <input type="radio" name="order" value="all" checked>すべて
-        <input type="radio" name="order" value="working">作業中
-        <input type="radio" name="order" value="finish">完了
+    <form id="task-change">
+      <input type="radio" name="group" value="all" checked>すべて
+      <input type="radio" name="group" value="working">作業中
+      <input type="radio" name="group" value="finish">完了
+    </form>
 
     <table>
       <thead>
@@ -20,6 +22,14 @@
         </tr>
       </thead>
       <tbody id="task-table">
+
+      </tbody>
+
+      <tbody id="work-table">
+
+      </tbody>
+
+      <tbody id="finish-table">
 
       </tbody>
     </table>
